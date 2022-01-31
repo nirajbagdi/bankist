@@ -269,6 +269,7 @@ formClose.addEventListener('submit', function (event) {
         accounts.splice(deleteIndex, 1);
 
         inputCloseUser.value = inputClosePin.value = '';
+        labelWelcome.textContent = 'Log in to get started';
         hideUI();
     }
 });
