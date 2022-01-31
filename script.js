@@ -172,11 +172,6 @@ inputLoginUser.focus();
 createUserIds(accounts);
 hideUI();
 
-// Fake Login
-currentAccount = account1;
-displayUI();
-updateUI(currentAccount);
-
 // Log in to the app
 formLogin.addEventListener('submit', function (event) {
     event.preventDefault();
